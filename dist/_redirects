@@ -1,1 +1,2 @@
 /getword /.netlify/functions/getword/getword.js 200
+/postagram https://postagram-web.herokuapp.com/
