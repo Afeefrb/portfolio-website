@@ -12,6 +12,14 @@
         
 
         <!-- Google Fonts -->
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+        
         <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap" rel="stylesheet">
 
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
@@ -40,8 +48,9 @@
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#works" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
                         <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
-                        <li   class="nav__item"><a href="#works" class="nav__link">Works</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li> 
                     </ul>
                 </div>
@@ -65,9 +74,9 @@
 
                         <div class="home__social">
 
-                            <a href="#" class="home__social-link"><i class="bx bxl-github"></i></a>
+                            <a target="_blank" href="https://github.com/Afeefrb" class="home__social-link"><i class="bx bxl-github"></i></a>
 
-                            <a href="#" class="home__social-link"><i class="bx bxl-linkedin"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/afeef-rabbani-2b34b677/" class="home__social-link"><i class="bx bxl-linkedin"></i></a>
                             
                             <!-- <a href="#" class="home__social-link"><i class="bx bxl-twitter"></i></a> -->
                           
@@ -82,7 +91,7 @@
             <!--===== ABOUT =====-->
             <section class="about section" id="about">
                 <!-- <span class="section-subtitle">My intro</span> -->
-                <h2 class="section-title">About me</h2>
+                <h2 class="section-title">About Me</h2>
 
                 <p class="about_description">Passionate about developing web apps with exciting frontend and backend technologies. Open to opportunities where I can use my skills to create responsive web apps.</p>
 
@@ -237,14 +246,14 @@
             </section>
 
             
-            <!--===== WORKS =====-->
+            <!--===== WORKS/PROJECT =====-->
             <section class="works section" id="works">
                 <h2 class="section-title">Recent Projects</h2> 
 
                 
                 
                 <div class="works__container bd-grid">
-
+                    
                     <div class="works__title__img">
                         <h3 class="works__maintitle"> Photogram</h3>
                         <p class="works__subtitle"> Photo sharing app built with React JS, Node JS, MongoDB.</p>
@@ -292,15 +301,28 @@
                         </div>
                        
                     </div>
+                    <div class="works__title__img">
+                        <h3 class="works__maintitle"> Expense Tracker</h3>
+                        <p class="works__subtitle"> App to track Income & <br> Expenses.</p>
 
-                   
 
-                    
+                        <div class="works__img">
+                                <img src="./assets/img/expense-tracker.PNG" alt="">
+        
+                                <div class="works__data">
+                                    <a target="_blank" href="https://expenses-tracker-reactjs.netlify.app/" class="works__link"><i class="bx bx-link-alt"></i></a>
+                                    <a
+                                      class="works__title"
+                                      href="https://expenses-tracker-reactjs.netlify.app/"
+                                      target="_blank">
+                                      www.expense-tracker.afeef.xyz
+                                    </a>
+                                    
+                                </div>
 
-                    
-
-                    
-
+                                
+                        </div>
+                       
                    
 
                    
@@ -314,10 +336,24 @@
             
 
             <!--===== EDUCATION =====-->
-            <section class="education section">
+            <section class="education section" id="education">
                 <!-- <span class="section-subtitle">Qualification</span> -->
                 <h2 class="section-title">My Education</h2>
                 <div class="education__container bd-grid">
+                    <div class="education__content">
+                        <div>
+                            <h3 class="education__year">2020-2021</h3>
+                            <span class="education__uni">Osmania University</span>
+                        </div>
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+                        <div>
+                            <h3 class="education__race">PG Diploma Computer Applications</h3>
+                            <!-- <span class="education__speciality">Finance</span> -->
+                        </div>
+                    </div>
                     <div class="education__content">
                         <div>
                             <h3 class="education__year">2018-2020</h3>
@@ -356,6 +392,9 @@
                         <div class="education__time">
                             <span class="education__rounder"></span>
                             <span class="education__line"></span>
+                            <span class="last"></span>
+                            <span class="education__line__dotted"></span>
+                            
                         </div>
                         <div>
                             <h3 class="education__race">Grade 12</h3>
@@ -389,7 +428,7 @@
                         <p class="services__description">Responsive web apps with good UI/UX</p>
                     </div>
 
-                    <div class="services__content">
+                    <div class="services__content services__content__lastContent">
                         <i class="bx bx-pencil services__icon"></i>
                         <h3 class="services__title">Content Writing</h3>
                         <p class="services__description">Curating content on the web apps to engage customers.</p>
@@ -407,6 +446,8 @@
                         <h2 class="section-title project__title">
                             Do you have a project in mind?  
                         </h2>
+                        <br>
+                        <br>
                         <p class="project__desc">If you have a project in mind, do not hesitate to contact me and I can tell you what servcies I can offer to accomplish your project.</p>
                         <a href="#contact" class="button button__light">Contact me</a>
 
@@ -426,7 +467,7 @@
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
                 <!-- <span class="section-subtitle">Contact Me</span> -->
-                <h2 class="section-title">Get in Touch</h2>
+                <h2 class="section-title">Contact Me</h2>
 
                 <div class="alert">Your message has been sent.</div>
                 <div class="contact__container bd-grid">
@@ -450,7 +491,7 @@
 
                     <div style="margin-top: 40px">
                         <div class="contact__info">
-                            <h3 class="contact__subtitle">Call me</h3>
+                            <h3 class="contact__subtitle">Phone</h3>
                             <span class="contact__text">+91 8008021679</span>
                         </div>
                         <div class="contact__info">
@@ -473,12 +514,12 @@
                 <h1 class="footer__title">Afeef Rabbani</h1>
                 <p class="footer__desc">I am Afeef and this is my personal website.</p>
 
-                <div class="footer__social">
+                <!-- <div class="footer__social">
                     <a href="#" class="footer__link"><i class="bx bxl-facebook"></i> </a>
                     <a href="#" class="footer__link"><i class="bx bxl-instagram"></i> </a>
                     <a href="#" class="footer__link"><i class="bx bxl-twitter"></i> </a>
-                </div>
-                <p class="footer__copy">All rights reserved - 2020</p>
+                </div> -->
+                <p class="footer__copy">All rights reserved - 2021</p>
             </div>
         </footer>
         
