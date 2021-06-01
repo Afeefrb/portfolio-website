@@ -1168,6 +1168,16 @@ footer.section {
     padding-right: 1rem;
   }
 
+  .about__information-data{
+    display:flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem !important;
+    align-items: center;
+    padding-left: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
     
  
   } 
